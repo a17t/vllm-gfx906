@@ -5,8 +5,8 @@ components:
   - name: devtools
     container:
       image: quay.io/devfile/universal-developer-image:ubi9-latest
-       memoryLimit: 64G
-       memoryRequest: 32G
+      memoryLimit: 64G
+      memoryRequest: 32G
     attributes:
       container-overrides:
         resources:
