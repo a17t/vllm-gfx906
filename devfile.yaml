@@ -5,6 +5,8 @@ components:
   - name: devtools
     container:
       image: quay.io/devfile/universal-developer-image:ubi9-latest
+    attributes:
+      container-overrides:
       resources:
         requests:
           amd.com/gpu: 1
