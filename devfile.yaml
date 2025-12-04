@@ -1,0 +1,14 @@
+schemaVersion: 2.2.0
+metadata:
+  name: rails-sample
+components:
+  - name: devtools
+    attributes:
+      resources:
+        requests:
+          amd.com/gpu: 1
+        limits:
+          amd.com/gpu: 1
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi9-latest
+      attributes
