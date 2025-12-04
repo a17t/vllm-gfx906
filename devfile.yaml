@@ -6,7 +6,7 @@ components:
     container:
       image: quay.io/devfile/universal-developer-image:ubi9-latest
     attributes:
-      pod-overrides:
+      container-overrides:
         resources:
           requests:
             amd.com/gpu: 1
