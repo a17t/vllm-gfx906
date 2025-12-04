@@ -3,11 +3,6 @@ metadata:
   name: vllm-gfx906
 components:
   - name: devtools
-    resources:
-      requests:
-        amd.com/gpu: 1
-      limits:
-        amd.com/gpu: 1
     container:
       image: quay.io/devfile/universal-developer-image:ubi9-latest
       attributes
