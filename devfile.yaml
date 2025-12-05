@@ -3,11 +3,12 @@ metadata:
   name: vllm-gfx906
 attributes:
   pod-overrides:
-    securityContext:
-      fsGroup: 10001
-      runAsGroup: 0
-      runAsNonRoot: true
-      runAsUser: 10001
+    spec:
+      securityContext:
+        fsGroup: 10001
+        runAsGroup: 0
+        runAsNonRoot: true
+        runAsUser: 10001
 components:
   - name: devtools
     container:
