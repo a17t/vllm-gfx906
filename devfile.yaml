@@ -14,5 +14,9 @@ components:
             amd.com/gpu: 1
           limits:
             amd.com/gpu: 1
+      pod-overrides:
         securityContext:
+          fsGroup: 10001
+          runAsGroup: 0
+          runAsNonRoot: true
           runAsUser: 10001
