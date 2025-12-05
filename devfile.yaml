@@ -14,5 +14,5 @@ components:
             amd.com/gpu: 1
           limits:
             amd.com/gpu: 1
-          securityContext:
-            runAsUser: 10001
+        securityContext:
+          runAsUser: 10001
